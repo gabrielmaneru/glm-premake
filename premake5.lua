@@ -20,3 +20,8 @@ project "glm"
 	
 	filter "system:windows"
 		systemversion "latest"
+
+		defines 
+		{ 
+			"_CRT_SECURE_NO_WARNINGS"
+		}
