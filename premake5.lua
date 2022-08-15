@@ -8,9 +8,14 @@ project "glm"
 
 	files
 	{
-		"**.cpp",
-		"**.hpp",
-		"**.inl"
+		"glm/**.cpp",
+		"glm/**.hpp",
+		"glm/**.inl"
+	}
+	
+	includedirs
+	{
+		"",
 	}
 	
 	filter "system:windows"
