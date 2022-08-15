@@ -23,3 +23,9 @@ project "glm"
 		{ 
 			"_CRT_SECURE_NO_WARNINGS"
 		}
+
+	filter "configurations:debug"
+		symbols "On"
+				
+	filter "configurations:release"
+		optimize "On"
